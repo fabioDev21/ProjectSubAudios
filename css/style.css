@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title
+{
+    font-weight: 700;
+    text-align: center;
+}
+
+#searchBar
+{
+    margin: auto;
+    background-color: #036;
+    border-radius: 20px;
+    padding:1em ;
+}
+
+#IconGlass
+{
+    color:#fff;
+    transform: scale(0.3);
+}
+
+#textSearch
+{
+    background-color: transparent;
+    color:#fff;
+    
+
+}
+
+#funcsBtns
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.funcsBtns--item
+{
+    width: 300px;
+    border-radius: 10px;
+    background-color: #036;
+    color:#fff;
+    padding: 1em;
+}
